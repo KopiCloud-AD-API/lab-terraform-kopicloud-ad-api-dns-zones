@@ -1,8 +1,8 @@
-# Lab Files for KopiCloud AD API Terraform Provider DNS CNAME Records
+# Lab Files for KopiCloud AD API Terraform Provider DNS Zones
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html)
 [![KopiCloud-AD](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-This repo contains a files to test and evaluate KopiCloud AD API Terraform Provider DNS CNAME Records
+This repo contains a files to test and evaluate KopiCloud AD API Terraform Provider DNS Zones
 
 ## How to use this code:
 
@@ -13,7 +13,7 @@ This repo contains a files to test and evaluate KopiCloud AD API Terraform Provi
 
 1. Clone the repo
 2. Update variables to your environment
-3. Execute the **dns-test-cname.cmd** file
+3. Execute the **dns-test-zones.cmd** file
 
 ## References:
 
