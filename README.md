@@ -1,26 +1,19 @@
-## Manage DNS Zones in Microsoft AD DNS using the KopiCloud AD API Terraform Provider
+# Lab Files for KopiCloud AD API Terraform Provider DNS CNAME Records
 [![Terraform](https://img.shields.io/badge/terraform-v1.3+-blue.svg)](https://www.terraform.io/downloads.html)
 [![KopiCloud-AD](https://img.shields.io/badge/kopiCloud_ad-v1.0+-blueviolet.svg)](https://www.kopicloud-ad-api.com)
 
-## Code creates:
-
-- List All DNS Zones
-- Create DNS Lookup Zones
-- List DNS Lookup Zones
-- Create DNS Reverse Lookup Zones
-- List DNS Reverse Lookup Zones
+This repo contains a files to test and evaluate KopiCloud AD API Terraform Provider DNS CNAME Records
 
 ## How to use this code:
 
 - Generate an authentication token in the KopiCloud AD API portal
-- Update the file **terraform.tfvars** to adjust the authentication to your environment
+- Update variables in the file **credentials/terraform.tfvars** to your environment
 
 ## How to deploy the code:
 
 1. Clone the repo
 2. Update variables to your environment
-3. Execute "**terraform init**"
-4. Execute "**terraform apply**"
+3. Execute the **dns-test-cname.cmd** file
 
 ## References:
 
